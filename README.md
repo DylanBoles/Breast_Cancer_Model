@@ -77,10 +77,15 @@ To better understand the dataset and present results, I implemented code to reco
 - Visualization of reconstructed images helped bridge the gap between raw coefficients and interpretability.
 
 dylan_cnn.py           # Convolutional Neural Network implementation
+
 dylan_rnf.py           # Random Forest implementation
+
 inverse3.py            # Image reconstruction + visualization
+
 results.txt            # CSV prediction outputs for train/dev/eval
+
 score.py               # Provided scoring scripts
+
 README.md              # Project documentation
 
 ## Requirements
