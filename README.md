@@ -82,7 +82,7 @@ dylan_rnf.py           # Random Forest implementation
 
 inverse3.py            # Image reconstruction + visualization
 
-results.txt            # CSV prediction outputs for train/dev/eval
+Results.txt            # CSV prediction outputs for train/dev/eval
 
 score.py               # Provided scoring scripts
 
