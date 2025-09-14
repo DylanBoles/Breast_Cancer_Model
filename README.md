@@ -75,3 +75,19 @@ To better understand the dataset and present results, I implemented code to reco
 - Class imbalance and overfitting were major challenges.
 - Classical ML (Random Forests) outperformed deep learning (CNN) for this dataset due to limited training samples and strong regularization needs.
 - Visualization of reconstructed images helped bridge the gap between raw coefficients and interpretability.
+
+dylan_cnn.py           # Convolutional Neural Network implementation
+dylan_rnf.py           # Random Forest implementation
+inverse3.py            # Image reconstruction + visualization
+results.txt            # CSV prediction outputs for train/dev/eval
+score.py               # Provided scoring scripts
+README.md              # Project documentation
+
+## Requirements
+- Python 3.8+
+- Libraries: numpy, pandas, torch, torchvision, scikit-learn, scipy, matplotlib
+
+## Acknowledgments
+- TUH DPATH Breast Dataset (v4.0.0)
+- Guidance and scoring framework provided by course instructor
+- Class competition setup for final evaluation
